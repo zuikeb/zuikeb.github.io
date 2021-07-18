@@ -1,0 +1,23 @@
+{
+    "pluginName": "FileBed",
+    "description": "可以作为图床使用，允许文件夹管理，允许在不修改链接地址的情况下，修改文件",
+    "author": "步尘",
+    "homepage": "https://gitee.com/StepDust/utools-filebed",
+    "version": "1.0.1",
+    "main": "index.html",
+    "logo": "logo.png",
+    "preload":"./preload.js",
+    "features": [
+        {
+            "code": "filebed",
+            "cmds": [
+                "图床",
+                "文件床",
+                "filebed"
+            ]
+        }
+    ],
+    "pluginSetting":{
+        "height": 680
+    }
+}
